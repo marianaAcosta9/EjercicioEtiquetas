@@ -193,7 +193,34 @@ Atributos globales: Son aquellos que se pueden aplicar a todos los elementos del
 
     -->
 
-    <img src="/assets/perritoplayero.jpg" width="200px">
+    <img src="/assets/perritoplayero.jpg" width="200px" alt="esta es una foto de un perrito playero"> <!--La etiqueta alt ayuda a describir la imagen, va dirigida a personas con deficiencias visuales-->
+
+    <!--Etiquetas de divisiones (div y span)
+    
+   Las etiquetas div y span no tienen ningun signidicado especial, sólo que la etqueta div se define como un elemento bloque y la etiqueta span es un elemento de linea.
+
+    -div: Este es un bloque de texto, se utiliza pra agrupar elementos en una sola seccion, es decir, si queremos agrupar una imagen y un texto, debemos utilizar un div.
+    -->
+
+    <div align="center" style="color: blueviolet; font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;"> 
+        <img src="/assets/perritoplayero.jpg" alt="Perrito Playero" width="200" height="200">
+        <p>Este texto donde vemos a un bonito perro playero. Este texto está dentro de un div, por lo que si le agregamos estilos directamente al div, podemos agregar colores, fuentes, etc.</p>
+        <p>Incluso podemos agregar listas a este div, y como te puedes dar cuenta, también se le agregan los estilos, por lo que los elementos de la lista también se centrarán de un color morado.</p>
+        <ul>
+            <li> Un elemento de lista centrado </li>
+            <li> Otro elemento de lista centrado </li>
+        </ul>
+        </div>
+    
+        <div align="center" style="border: 10px dotted blue;">
+            <h3 >Ejemplo de div y span </h3>
+             <p>
+              Esto es un párrafo dentro de un div,
+               <span style="color: red;"> y esto un span dentro de un párrafo. </span>
+             </p>
+           </div>
+
+
 
 </body>
 <!--Aquí termina el cuerpo de nuestro documento-->
